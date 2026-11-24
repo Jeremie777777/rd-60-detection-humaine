@@ -35,7 +35,7 @@ Avec le **Standard Point Cloud FW**, une détection a été observée jusqu’à
 
 Une seconde carte, distincte de l’adaptateur du capteur, a été conçue pour les essais d’interface et de programmation du module. Les schémas et le routage ont été réalisés dans KiCad, puis des fichiers Gerber ont été exportés. Des cartes de test ont été usinées et assemblées.
 
-La conception décrite par l’auteur utilise deux circuits CH340G pour les interfaces série nécessaires aux essais de programmation et à l’observation des journaux. Les fichiers KiCad natifs fournis ici concernent la carte adaptatrice RD-60. Ils comprennent le schéma, le circuit imprimé et le fichier de projet. Les fichiers de conception natifs de la carte de programmation et sa nomenclature détaillée restent à ajouter.
+La conception décrite par l’auteur utilise deux circuits CH340G pour les interfaces série nécessaires aux essais de programmation et à l’observation des journaux. Le projet KiCad fourni sous le nom « RD-60 homemade adapter » comprend un schéma, un circuit imprimé et un fichier de projet. Comme le projet comporte deux cartes distinctes (adaptation et programmation), le rôle précis de cette conception dans cet ensemble reste à confirmer. Les fichiers natifs de l’autre carte et la nomenclature détaillée restent à ajouter.
 
 Une documentation officielle AI-Thinker a été traduite et adaptée pour faciliter les essais. Ce dépôt en présente le contexte et les résultats ; il ne redistribue pas la documentation traduite.
 
@@ -57,7 +57,7 @@ Deux modules Dragino LA66 ont été utilisés pour des essais radio en mode pair
 
 ## Galerie
 
-Les images originales fournies sont conservées dans [picture/](picture/). Quelques preuves représentatives :
+Les visuels du projet sont rangés dans [picture/](picture/). Quelques preuves représentatives :
 
 ### Adaptateur et module radar
 
@@ -82,7 +82,7 @@ Les images originales fournies sont conservées dans [picture/](picture/). Quelq
 ## Arborescence
 
 - `picture/` : photographies, captures et rendus visuels du projet.
-- `KiCad/` : schéma, circuit imprimé et projet KiCad de la carte adaptatrice RD-60.
+- `KiCad/` : schéma, circuit imprimé et projet KiCad fournis pour le RD-60.
 - `PDF/` : emplacement prévu pour les fiches techniques et documents PDF autorisés à être partagés. Aucun PDF n’était présent dans les éléments reçus lors de la préparation de ce dépôt.
 
 ## Suites envisagées
@@ -99,6 +99,7 @@ Les images originales fournies sont conservées dans [picture/](picture/). Quelq
 - Radar RD-60 : AI-Thinker, [documentation officielle RD-6x](https://docs.ai-thinker.com/en/rd-6x/).
 - Modules radio LA66 : Dragino, [documentation officielle](https://wiki.dragino.com/docs/LoRaWAN-End-Node/lora-modules-accessories/la66-module/).
 - Conception électronique et essais : réalisés par l’auteur du projet.
+
 
 
 
